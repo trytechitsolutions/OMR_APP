@@ -87,5 +87,8 @@ def data():
     # Return the response as JSON
     return jsonify({"student_id": student_id, "test_id": test_id, "Ans": final_ans})
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0')
