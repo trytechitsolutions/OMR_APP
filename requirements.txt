@@ -1,0 +1,6 @@
+Python==3.8.19
+opencv-python
+numpy
+pands
+matplotlib.pyplot
+flask
