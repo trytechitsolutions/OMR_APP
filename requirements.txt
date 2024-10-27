@@ -1,5 +1,4 @@
-opencv-python
+opencv-python-headless  # Ensures compatibility in a server environment without GUI
 numpy
-pands
-matplotlib.pyplot
-flask
+pandas
+Flask
