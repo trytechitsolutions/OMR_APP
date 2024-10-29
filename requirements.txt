@@ -2,3 +2,4 @@ opencv-python-headless  # Ensures compatibility in a server environment without 
 numpy
 pandas
 Flask
+Flask-CORS
