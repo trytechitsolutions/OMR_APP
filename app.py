@@ -2,8 +2,10 @@ from flask import Flask, request, jsonify
 from utils1 import find_paper, read_id, get_ans_200,get_ans_100
 import cv2
 import numpy as np
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/')
 def home():
